@@ -1,0 +1,135 @@
+@import url('fontawesome/css/all.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(to top, #8c9eb8, #87aebe, #90bdbb, #a7c8b5, #c7d0b3);
+}
+
+.center-content {
+    display: flex;
+    justify-content: center;
+}
+
+.w-75 {
+    width: 75%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.w-30 {
+    width: 33.333%;
+}
+
+.m-10 {
+    margin: 10px;
+}
+
+.shadow {
+    box-shadow: 0px 0px 8px rgb(56, 56, 56);
+}
+
+.border-radius-1 {
+    border-radius: 5px;
+}
+
+.card-body {
+    padding: 1rem;
+    background: hsl(225, 12%, 93%);
+    width: 30%;
+    min-width: 350px;
+}
+
+input {
+    padding: 5px;
+    border: 0;
+    outline: 2px solid rgba(28, 110, 164, 0.45);
+    outline-offset: 0px;
+}
+
+input:active,
+input:focus {
+    outline: 2px solid rgba(28, 110, 164, 0.93);
+    outline-offset: 0px;
+}
+
+input[type=checkbox] {
+    outline: none;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.success-btn {
+    background-color: rgb(75 188 110 / 100%);
+    border: none;
+    width: 40px;
+    height: 30px;
+    color: #fefefe;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 50px;
+    width: 35px;
+    height: 35px;;
+}
+
+.success-btn:active {
+    transform: scale(0.88);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    /* Lowering the shadow */
+}
+
+.top-10 {
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+}
+
+.d-inline-f {
+    display: inline-flex;
+
+}
+
+.stepLine {
+    background: rgb(33, 115, 182);
+    margin-bottom: 5px;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    font-weight: bold;
+   
+}
+
+.h-80 {
+    height: 80%;
+    overflow-y: auto;
+
+}
+
+.btnClose {
+    cursor: pointer;
+    font-size: 20px;
+    
+}
+
+.btnClose:active {
+    transform: scale(.87);
+}
